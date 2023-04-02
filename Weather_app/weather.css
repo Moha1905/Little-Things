@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(weather.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    width: 410px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);    border-radius: 15px;
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 20rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    margin-right: 4px;
+    transition: 0.2s;
+    background: none;
+    color: #fff;
+}
+
+.inputs input[type="text"]:focus {
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.inputs input[type="submit"] {
+    height: 3.2rem;
+    width: 6.5rem;
+    background: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: 3px solid #ffc400ec;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.inputs input[type="submit"]:hover {
+    background: #ffc400ec;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.display {
+    text-align: center;
+    width: 400px;
+}
+
+.wrapper {
+    margin: 0 9rem;
+    background: rgba(0, 0, 0, 0.4);    height: 45vh;
+    margin: -30PX 10px 50pX auto;
+    border-radius: 15px;
+}
+
+.wrapper h2 {
+    padding: 5px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: gray;
+    font-family: sans-serif;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+}
+
+.wrapper p {
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: gray;
+    font-size: 26px;
+}
+
+.wrapper h2 span {
+    font-size: 26px;
+    color: #fff;
+}
+
+.wrapper p span {
+    color: #fff;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.wrapper p span::first-letter {
+    text-transform: uppercase;
+}
+
+#clock {
+    font-size: 25px;
+    width: 140px;
+    margin: 20px 125px;
+    color: #fff;
+}

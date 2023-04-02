@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="iframe.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <input type="submit" value="Calculator" id="openCalc"></input>
+        <input type="submit" value="Weather" id="openWeather"></input>
+        <input type="submit" value="TicTacToe" id="openTic"></input>
+        <input type="submit" value="PongGame" id="openPong"></input>
+    </div>
+
+    <iframe src="calc/Calculator.html" width="350px" height="520px" frameborder="0" title="Calculator"
+        id="calc"></iframe>
+    <iframe class="hidden" src="Weather_app/weather.html" width="450px" height="610px" frameborder="0" title="weather"
+        id="weather"></iframe>
+    <iframe class="hidden" src="TicTacToe/TicTacToe.html" width="450px" height="630px" frameborder="0" title="TicTacToe"
+        id="tic"></iframe>
+    <iframe class="hidden" src="PongGame/Pong.html" width="1020px" height="550px" frameborder="0" title="PongGame"
+        id="pong"></iframe>
+
+
+</body>
+
+<script src="iframe.js"></script>
+
+</html>

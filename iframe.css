@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+iframe {
+    display: block;
+    transform: scale(0.9);
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.navbar {
+    background: #111;
+    position: relative;
+    text-align: center;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    background-color: #111;
+    border: none;
+    font-size: 30px;
+    padding: 1.5vh 12vh;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
